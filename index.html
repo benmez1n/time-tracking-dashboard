@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+
+ <main>
+    <div id="general">
+      <div id="info">
+        <img src="images/image-jeremy.png" alt="jeremy">
+        <div>
+          <div id="text">Report for</div>
+          <span>Jeremy Robson</span>
+        </div>
+      </div>
+      <div id=track-filter>
+        <ul>
+          <li class="active">Daily</li>
+          <li>Weekly</li>
+          <li>Monthly</li>
+        </ul>
+      </div>
+    </div>
+    <section>
+      <div id="work">
+        <div class="img-container"></div>
+        <div class="info">
+          <div class="title">  
+            <span class="title">Work</span>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <span class="current daily">5hrs</span> <!-- daily -->
+          <span class="previous daily">last day - 7hrs</span> <!-- daily -->
+          <span class="current weekly inactive">32hrs</span>
+          <span class="previous weekly inactive">last week - 36hrs</span>
+          <span class="current monthly inactive">103hrs</span>
+          <span class="previous monthly inactive">last month - 128hrs</span>
+        </div>
+      </div>
+      <div id="play">
+        <div class="img-container"></div>
+        <div class="info">
+          <div class="title">              
+            <span class="title">Play</span>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <span class="current daily">1hr</span> <!-- daily -->
+          <span class="previous daily">last day - 2hrs</span> <!-- daily -->
+          <span class="current weekly inactive">10hrs</span>
+          <span class="previous weekly inactive">last week - 8hrs</span>
+          <span class="current monthly inactive">23hrs</span>
+          <span class="previous monthly inactive">last month - 29hrs</span>
+        </div>
+      </div>
+      <div id="study">
+        <div class="img-container"></div>
+        <div class="info">
+          <div class="title">
+            <span class="title">Study</span>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <span class="current daily">0hrs</span> <!-- daily -->
+          <span class="previous daily">last day - 1hr</span> <!-- daily -->
+          <span class="current weekly inactive">4hrs</span>
+          <span class="previous weekly inactive">last week - 7hrs</span>
+          <span class="current monthly inactive">13hrs</span>
+          <span class="previous monthly inactive">last month - 19hrs</span>
+        </div>
+      </div>
+      <div id="exercise">
+        <div class="img-container"></div>
+        <div class="info">
+          <div class="title">
+            <span class="title">Exercise</span>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <span class="current daily">1hr</span> <!-- daily -->
+          <span class="previous daily">last day - 1hr</span> <!-- daily -->
+          <span class="current weekly inactive">4hrs</span>
+          <span class="previous weekly inactive">last week - 5hrs</span>
+          <span class="current monthly inactive">11hrs</span>
+          <span class="previous monthly inactive">last month - 18hrs</span>
+        </div>
+
+      </div>
+      <div id="social">
+        <div class="img-container">
+        </div>
+        <div class="info">
+          <div class="title">  
+            <span class="title">Social</span>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <span class="current daily">1hr</span> <!-- daily -->
+          <span class="previous daily">last day - 3hrs</span> <!-- daily -->
+          <span class="current weekly inactive">5hrs</span>
+          <span class="previous weekly inactive">last week - 10hrs</span>
+          <span class="current monthly inactive">21hrs</span>
+          <span class="previous monthly inactive">last month - 23hrs</span>
+        </div>
+
+      </div>
+      <div id="self-care">
+        <div class="img-container">
+        </div>
+        <div class="info">
+          <div class="title">
+            <span class="title">Self Care</span>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <span class="current daily">0hrs</span> <!-- daily -->
+          <span class="previous daily">last day - 1hr</span> <!-- daily -->
+          <span class="current weekly inactive">2hrs</span>
+          <span class="previous weekly inactive">last week - 2hrs</span>
+          <span class="current monthly inactive">7hrs</span>
+          <span class="previous monthly inactive">last month - 11hrs</span>
+        </div>
+      </div>
+    </section>
+ </main>
+  <script src="main.js"></script>
+</body>
+</html>
